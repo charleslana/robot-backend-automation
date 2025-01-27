@@ -1,6 +1,6 @@
 *** Settings ***
 Library     Collections
-Resource    ../resources/base_request.robot
+Resource    ../resources/base_request.resource
 
 
 *** Variables ***

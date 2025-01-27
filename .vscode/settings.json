@@ -1,0 +1,23 @@
+{
+    "robot.python.executable": "${workspaceFolder}/venv/bin/python3",
+    "[robotframework]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.autoIndent": "brackets",
+        "editor.defaultFormatter": "robocorp.robotframework-lsp",
+    },
+    "launch": {
+        "configurations": [
+            {
+                "type": "robotframework-lsp",
+                "name": "Robot Framework: Launch Template",
+                "request": "launch",
+                "terminal": "integrated",
+                "args": [
+                    "--argumentfile",
+                    "arguments.txt"
+                ]
+            }
+        ]
+    }
+}

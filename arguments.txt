@@ -1,0 +1,2 @@
+--outputdir reports
+--loglevel TRACE:INFO
